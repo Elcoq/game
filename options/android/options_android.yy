@@ -1,6 +1,6 @@
 {
   "$GMAndroidOptions":"v1",
-  "%Name":"Android",a
+  "%Name":"Android",
   "name":"Android",
   "option_android_application_tag_inject":"",
   "option_android_arch_arm64":true,
