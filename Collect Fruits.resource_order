@@ -12,6 +12,7 @@
     {"name":"Sound1","order":6,"path":"sounds/Sound1/Sound1.yy",},
     {"name":"Sound2","order":9,"path":"sounds/Sound2/Sound2.yy",},
     {"name":"Apple","order":3,"path":"sprites/Apple/Apple.yy",},
+    {"name":"Banana","order":17,"path":"sprites/Banana/Banana.yy",},
     {"name":"Bar0","order":16,"path":"sprites/Bar0/Bar0.yy",},
     {"name":"Bar1","order":15,"path":"sprites/Bar1/Bar1.yy",},
     {"name":"Bar2","order":14,"path":"sprites/Bar2/Bar2.yy",},

@@ -6,7 +6,7 @@ if(keyboard_check(vk_lshift)&&global.stamina > 0){
 }
 else{
     spd = 5;
-    if(global.stamina<90){
+    if(global.stamina<global.max_stamina){
     global.stamina = global.stamina + 1;
     }
 }
