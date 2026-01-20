@@ -13,6 +13,9 @@ else{
     global.stamina = global.stamina + 1;
     }
 }
+if(keyboard_check(vk_escape)){
+    room_goto(Menu)
+}
 xspeed = (r-l) * spd;
 if place_meeting(x+xspeed,y,wall){
     xspeed = 0;
