@@ -25,7 +25,6 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Menufont","path":"fonts/Menufont/Menufont.yy",},},
-    {"id":{"name":"Button_parent","path":"objects/Button_parent/Button_parent.yy",},},
     {"id":{"name":"Button_play","path":"objects/Button_play/Button_play.yy",},},
     {"id":{"name":"HP","path":"objects/HP/HP.yy",},},
     {"id":{"name":"Items","path":"objects/Items/Items.yy",},},
