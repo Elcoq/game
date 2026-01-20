@@ -5,3 +5,4 @@ global.points = 0;
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
 pt = 1;
+heal = 0
