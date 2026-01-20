@@ -1,14 +1,7 @@
-rn = random(9)
+
 if place_meeting(x,y+spd,Player){
-    if(rn <=1){
-    sprite_index = Banana
-    }
-    else if(rn<=3){
-    sprite_index = bomb
-    }
-    else{
-        sprite_index = Apple
-    }
+    sprite_index = choose(Banana,bomb,Apple)
+    
     spd = 0;
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
@@ -19,7 +12,7 @@ if place_meeting(x,y+spd,Player){
         game_end();
     }
 }
-    if(sprite_index=Banana){
+if(sprite_index=Banana){
     pt = 2 
         heal = 0
 }
