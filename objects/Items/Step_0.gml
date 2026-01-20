@@ -9,7 +9,7 @@ if place_meeting(x,y+spd,Player){
     global.hp = global.hp + heal
     audio_play_sound(Sound1,1,false);
     if(global.hp = 0){
-        game_end();
+        room_goto(Menu)
     }
 }
 if(sprite_index=Banana){
@@ -33,12 +33,12 @@ if place_meeting(x,y+spd,wall){
         audio_play_sound(Sound2,1,false);
         global.hp = global.hp - 1;
         if(global.hp = 0){
-        game_end();
+        room_goto(Menu)
     }
     }
     sprite_index = Apple
     if(global.hp = 0){
-        game_end();
+        room_goto(Menu)
     }
     }
         
