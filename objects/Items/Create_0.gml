@@ -1,3 +1,4 @@
+
 spd = 8;
 global.hp = 3;
 wall = layer_tilemap_get_id("Wall");

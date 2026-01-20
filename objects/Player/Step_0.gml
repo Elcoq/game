@@ -1,8 +1,11 @@
 l= keyboard_check(ord("A"));
 r = keyboard_check(ord("D"));
 if(keyboard_check(vk_lshift)&&global.stamina > 0){
+    if(keyboard_check(ord("A")))or keyboard_check(ord("D")){
     spd = 8;
     global.stamina = global.stamina - 3;
+}
+    global.stamina = global.stamina + 1;
 }
 else{
     spd = 5;
