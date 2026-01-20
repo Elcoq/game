@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font1",
+  "%Name":"Menufont",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":284,
@@ -2510,7 +2510,7 @@
   "last":0,
   "lineHeight":363,
   "maintainGms1Font":false,
-  "name":"Font1",
+  "name":"Menufont",
   "parent":{
     "name":"Collect Fruits",
     "path":"Collect Fruits.yyp",

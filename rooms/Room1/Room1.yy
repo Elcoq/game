@@ -48,8 +48,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Collect Fruits",
-    "path":"Collect Fruits.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
