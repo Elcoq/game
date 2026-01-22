@@ -7,8 +7,9 @@ global.points = 0;
     y = random_range(ystart,ystart);
 pt = 1;
 heal = 0
-catches = 1 
-maxspeed = 10
+catches = 1
+maxspeed = 9
+add_health = healthorb
 
 if global.apple_skin2==1{
     apple_skin=Apple_2

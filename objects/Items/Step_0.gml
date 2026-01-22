@@ -1,5 +1,5 @@
 if y=random_range(ystart,ystart){
-    sprite_index = choose(banana_skin,bomb_skin,apple_skin)
+    sprite_index = choose(banana_skin,bomb_skin,apple_skin,add_health)
 }
 if place_meeting(x,y+spd,Player){
     if catches%10==0{
@@ -7,7 +7,8 @@ if place_meeting(x,y+spd,Player){
         maxspeed++
     }
     
-    sprite_index = choose(banana_skin,bomb_skin,apple_skin)
+    
+    sprite_index = choose(banana_skin,bomb_skin,apple_skin,add_health)
 
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
@@ -17,7 +18,10 @@ if place_meeting(x,y+spd,Player){
     if(global.hp = 0){
         room_goto(Menu)
     }
-
+    if sprite_index != bomb{
+        catches++
+    }
+}
 if(sprite_index=banana_skin){
     pt = 2 
         heal = 0
@@ -30,7 +34,11 @@ if(sprite_index=banana_skin){
     pt = 1
     heal = 0
 }
-} 
+    if(sprite_index = add_health){
+    pt = 0
+    heal = 1
+}
+
 if place_meeting(x,y+spd,wall){
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
