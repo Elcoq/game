@@ -1,7 +1,14 @@
+if y=random_range(ystart,ystart){
+    sprite_index = choose(banana_skin,bomb_skin,apple_skin)
+}
 if place_meeting(x,y+spd,Player){
-    sprite_index = choose(Banana,bomb,global.apple)
+    if catches%10==0{
+        spd=maxspeed
+        maxspeed++
+    }
     
-    spd = 0;
+    sprite_index = choose(banana_skin,bomb_skin,apple_skin)
+
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
     global.points = global.points + pt
@@ -10,40 +17,37 @@ if place_meeting(x,y+spd,Player){
     if(global.hp = 0){
         room_goto(Menu)
     }
-}
-if(sprite_index=Banana){
+
+if(sprite_index=banana_skin){
     pt = 2 
         heal = 0
 }
-    if(sprite_index=bomb){
+    if(sprite_index=bomb_skin){
     pt = 0
     heal = -1
 }
-    if(sprite_index = Apple){
+    if(sprite_index = apple_skin){
     pt = 1
     heal = 0
 }
-    
+} 
 if place_meeting(x,y+spd,wall){
     x = random_range(xstart-300,xstart+300);
     y = random_range(ystart,ystart);
-    spd = 0;
-    if(sprite_index!=bomb){
+
+    if(sprite_index!=bomb_skin){
         audio_play_sound(Sound2,1,false);
         global.hp = global.hp - 1;
         if(global.hp = 0){
         room_goto(Menu)
     }
     }
-    sprite_index = Apple
+    sprite_index = apple_skin
     if(global.hp = 0){
         room_goto(Menu)
     }
     }
-        
-else{
-    spd = 8;
-}
+
 y = y + spd;
 
 

@@ -1,1 +1,1 @@
-global.apple = Apple
+global.apple_skin2 = 0

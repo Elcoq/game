@@ -1,1 +1,1 @@
-global.Bomb = bomb
+global.bomb_skin2 = 0

@@ -1,0 +1,1 @@
+global.apple_skin2 = 1

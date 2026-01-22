@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Apple",
-    "path":"sprites/Apple/Apple.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"Apple",
     "path":"sprites/Apple/Apple.yy",

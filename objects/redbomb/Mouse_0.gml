@@ -1,0 +1,1 @@
+global.bomb_skin2 = 1

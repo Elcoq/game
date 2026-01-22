@@ -1,0 +1,1 @@
+global.banana_skin2 = 0
