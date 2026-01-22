@@ -1,6 +1,5 @@
-
 if place_meeting(x,y+spd,Player){
-    sprite_index = choose(Banana,bomb,Apple)
+    sprite_index = choose(Banana,bomb,global.apple)
     
     spd = 0;
     x = random_range(xstart-300,xstart+300);
