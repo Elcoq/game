@@ -11,7 +11,7 @@ function json_to_string(fileName) {
     return _json_string;
 }
 
-var data = json_to_string("user_data.json");
+var data = json_to_string("user_data2.json");
 var parse_data = json_parse(data);
 global.hp = parse_data.d_hp
 global.points = parse_data.d_pt
