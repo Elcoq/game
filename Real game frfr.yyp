@@ -34,6 +34,7 @@
     {"id":{"name":"greenbanana","path":"objects/greenbanana/greenbanana.yy",},},
     {"id":{"name":"HP","path":"objects/HP/HP.yy",},},
     {"id":{"name":"Items","path":"objects/Items/Items.yy",},},
+    {"id":{"name":"load","path":"objects/load/load.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Quit","path":"objects/Quit/Quit.yy",},},
     {"id":{"name":"redbomb","path":"objects/redbomb/redbomb.yy",},},

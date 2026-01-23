@@ -1,5 +1,5 @@
 
-spd = 8;
+global.spd = 8;
 global.hp = 3;
 wall = layer_tilemap_get_id("Wall");
 global.points = 0;
@@ -7,7 +7,7 @@ global.points = 0;
     y = random_range(ystart,ystart);
 pt = 1;
 heal = 0
-catches = 1
+global.catches = 1
 maxspeed = 9
 add_health = healthorb
 
