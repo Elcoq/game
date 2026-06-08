@@ -49,6 +49,7 @@
     {"id":{"name":"Skin_room","path":"rooms/Skin_room/Skin_room.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
+    {"id":{"name":"Sound3","path":"sounds/Sound3/Sound3.yy",},},
     {"id":{"name":"Apple_2","path":"sprites/Apple_2/Apple_2.yy",},},
     {"id":{"name":"Apple","path":"sprites/Apple/Apple.yy",},},
     {"id":{"name":"Banana_2","path":"sprites/Banana_2/Banana_2.yy",},},

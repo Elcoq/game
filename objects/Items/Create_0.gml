@@ -1,4 +1,4 @@
-
+pitch = 1;
 wall = layer_tilemap_get_id("Wall");
 
     x = random_range(xstart-300,xstart+300);

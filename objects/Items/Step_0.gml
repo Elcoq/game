@@ -25,6 +25,8 @@ if place_meeting(x,y+global.spd,Player){
     }
     if sprite_index != bomb{
         global.catches++
+        audio_sound_pitch(Sound3, pitch+0.005);
+        pitch = pitch + 0.005
     }
     
     sprite_index = choose(banana_skin,bomb_skin,apple_skin,add_health)
@@ -57,6 +59,7 @@ if place_meeting(x,y+global.spd,wall){
             global.hp = global.hp - 1;
             if(global.hp = 0){
             room_goto(Menu)
+            audio_stop_sound(Sound3);
         }
 
     }
@@ -64,6 +67,7 @@ if place_meeting(x,y+global.spd,wall){
     sprite_index = apple_skin
     if(global.hp = 0){
         room_goto(End)
+        audio_stop_sound(Sound3);
     }
     }
 
