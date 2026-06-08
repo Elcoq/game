@@ -63,7 +63,7 @@ if place_meeting(x,y+global.spd,wall){
     }
     sprite_index = apple_skin
     if(global.hp = 0){
-        room_goto(Menu)
+        room_goto(End)
     }
     }
 
